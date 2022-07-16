@@ -421,3 +421,8 @@ margin-right: 495px; */
     gap: 30px;
     flex-basis: calc((100% - 60px) / 3);}
 
+.examples-image{
+    outline: 1px solid #EEEEEE;
+}
+
+
