@@ -317,16 +317,18 @@ text-align: center;}
     
 }
 
-.address .link:hover,
-.address .link:focus {
+.address a:hover,
+.address a:focus {
     color: var(--accent-color);
 }
 
-.contact-link:hover,
 .contact-link:focus {  
     color:var(--accent-color);
 }
 
+.contact-link:hover{
+    color: var(--accent-color);
+}
 
 .address {
     font-style: normal;
@@ -419,5 +421,10 @@ margin-right: 495px; */
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    flex-basis: calc((100% - 60px) / 3);}
+    flex-basis: calc((100% - 60px) / 3);
+}
+.examples-image{
+    outline: 1px solid #EEEEEE;
+}
+
 
